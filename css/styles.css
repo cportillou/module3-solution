@@ -3,8 +3,9 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
-
 /** HEADER **/
+
+
 #header-nav {
   background-color: #939390;
   border-radius: 0;
@@ -83,7 +84,7 @@ h2,h3{
   font-weight: bold;
 }
 
-h2{margin-top: 0;
+h2{margin-top: 90px;
 margin-bottom:30px;}
 
 h3{
@@ -175,6 +176,7 @@ h3{
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
+
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -200,6 +202,9 @@ h3{
     font-size: 1em;
     margin-right: 5px;
   }
+
+  h2{margin-top: 120px;
+margin-bottom:30px;}
 
   #call-btn > a {
     font-size: 1.5em;
